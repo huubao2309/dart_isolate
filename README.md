@@ -15,11 +15,11 @@ Link: https://api.dart.dev/stable/2.7.1/dart-isolate/dart-isolate-library.html
 
 ### [Create a new iSolate](https://github.com/huubao2309/dart_isolate/blob/master/dart_isolate/lib/raise_button_new.dart)
 
-    ![New Solate](/images/create_isolate.png)
+![New Solate](/images/create_isolate.png)
 
 ### [iSolate two-ways](https://github.com/huubao2309/dart_isolate/blob/master/dart_isolate/lib/send_isolate_two_ways.dart)
 
-    ![Send iSolate two-ways](/images/two-ways_isolate.png)
+![Send iSolate two-ways](/images/two-ways_isolate.png)
 
 ### [Kill isolate](https://github.com/huubao2309/dart_isolate/blob/master/dart_isolate/lib/send_isolate_two_ways.dart)
 
