@@ -4,6 +4,8 @@ import 'package:dart_isolate/rotate_animation.dart';
 import 'package:dart_isolate/send_isolate_two_ways.dart';
 import 'package:flutter/material.dart';
 
+import 'kill_isolate.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               RotateAnimation(),
-              SumButtonNew2Port(),
+              SumButtonKillNewIsolate(),
             ],
           ),
         ),
