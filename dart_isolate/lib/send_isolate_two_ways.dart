@@ -41,6 +41,7 @@ class _SumButtonState extends State<SumButtonNew2Port> {
   static void taskRunner(SendPort sendPort) {
     // two-way
     var receiverPort = ReceivePort();
+
     receiverPort.listen((data) {
       print('Port 2: $data');
     });
